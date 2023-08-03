@@ -35,6 +35,9 @@ function Hero() {
           </p>
         </div>
       </div>
+      <div className="max-sm:hidden">
+        <SomosExpert />
+      </div>
     </div>
   );
 }
