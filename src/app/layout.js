@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={myFont.className}>
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
