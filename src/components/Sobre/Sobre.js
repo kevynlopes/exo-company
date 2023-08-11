@@ -13,7 +13,7 @@ function Sobre() {
         </h3>
       </div>
       <div className="grid grid-cols-2">
-        <div className="flex flex-col gap-4 ml-96">
+        <div className="flex flex-col gap-4 ml-[400px]">
           <SobreButton>
             CONGRESSOS. SIMPOSIOS, CONFERENCIAS E EXPOSICAO
           </SobreButton>
@@ -22,13 +22,14 @@ function Sobre() {
           <SobreButton>BUFFETS CORPORATIVOS E SOCIAIS</SobreButton>
           <SobreButton>AGENCIAMENTO DE VIAGENS E HOSPEDAGENS</SobreButton>
         </div>
-        <div className="flex flex-col gap-4 mr-96">
+        <div className="flex flex-col gap-4 mr-[400px]">
           <SobreButton>
             CONGRESSOS. SIMPOSIOS, CONFERENCIAS E EXPOSICAO
           </SobreButton>
           <SobreButton>MONTAGEM DE FEIRAS E STANDS</SobreButton>
           <SobreButton>RECURSOS HUMANOS, RECEPCAO E CERIMONIAL</SobreButton>
           <SobreButton>BUFFETS CORPORATIVOS E SOCIAIS</SobreButton>
+          <SobreButton>AGENCIAMENTO DE VIAGENS E HOSPEDAGENS</SobreButton>
           <SobreButton>AGENCIAMENTO DE VIAGENS E HOSPEDAGENS</SobreButton>
         </div>
       </div>
