@@ -22,7 +22,7 @@ function Header() {
             src={"span.elementor-button-icon.svg"}
             height={20}
             width={20}
-            alt="teste"
+            alt="image"
             className="object-cover pointer-events-none"
           />
         </button>
