@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Social from "../SocialButton";
 import NavLinks from "./NavLinks";
+import NavbarCaminho from "./NavbarCaminho";
 
 function Header() {
   return (
@@ -11,12 +12,25 @@ function Header() {
           height={38}
           width={38}
           alt="logo"
-          className="object-cover pointer-events-none"
+          className="max-sm:hidden object-cover pointer-events-none"
         />
       </div>
       <div className="flex items-center sm:gap-12">
-        <NavLinks />
-        <button className="h-10 flex gap-4 items-center bg-gradient-to-r from-[#CB1688] to-[#83B4D8] text-white p-4 rounded-xl hover:scale-105 transition">
+        <div className="flex gap-8">
+          <NavbarCaminho href={"/"} alt={"inicio"}>
+            Inicio
+          </NavbarCaminho>
+          <NavbarCaminho href={"/"} alt={"cerviços"}>
+            Serviços
+          </NavbarCaminho>
+          <NavbarCaminho href={"/"} alt={"clientes"}>
+            Clientes
+          </NavbarCaminho>
+          <NavbarCaminho href={"#sobre"} alt={"sobre"}>
+            Sobre
+          </NavbarCaminho>
+        </div>
+        <button className="max-sm:hidden h-10 flex gap-4 items-center bg-gradient-to-r from-[#CB1688] to-[#83B4D8] text-white p-4 rounded-xl hover:scale-105 transition">
           <p className="max-sm:text-sm max-sm:w-24">Contate-nos</p>
           <Image
             src={"span.elementor-button-icon.svg"}
