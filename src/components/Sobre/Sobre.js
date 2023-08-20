@@ -3,8 +3,8 @@ import SobreButton from "./SobreButton";
 
 function Sobre() {
   return (
-    <div className="pb-16">
-      <div className="flex justify-center">
+    <div className="pt-20 pb-20">
+      <div className="flex justify-center pb-16">
         <h3
           id="sobre"
           className="text-[#4B5478] sm:text-2xl max-sm:w-[900px] w-[55%] p-12 pb-16"

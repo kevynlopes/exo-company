@@ -65,6 +65,19 @@ function Servicos() {
           </motion.div>
         </motion.div>
       </div>
+      <div className="flex items-center gap-4">
+        <div>
+          <h3 className="text-[#909BD5] text-3xl">IMPACTO</h3>
+        </div>
+        <div>
+          <Image
+            src={"Rectangle.svg"}
+            alt="Rectangle"
+            width={1225}
+            height={10}
+          />
+        </div>
+      </div>
     </div>
   );
 }
