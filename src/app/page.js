@@ -2,6 +2,8 @@ import Hero from "@/components/Hero/Hero";
 import Impacto from "@/components/Impacto/Impacto";
 import Servicos from "@/components/Servicos/Servicos";
 import Sobre from "@/components/Sobre/Sobre";
+import Play from "@/components/Play/Play";
+import Clientes from "@/components/Clientes/Clientes";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Sobre />
       <Servicos />
       <Impacto />
+      <Play />
+      <Clientes />
     </div>
   );
 }

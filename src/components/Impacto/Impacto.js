@@ -14,13 +14,12 @@ function Impacto() {
 
   useEffect(() => {
     interval.current = setInterval(() => {
-      console.log("teste");
       if (numero < 300) {
         setNumero((numeroAntigo) => numeroAntigo + 1);
       } else {
         clearInterval(interval.current);
       }
-    });
+    }, 10);
 
     return () => {
       clearInterval(interval.current);
@@ -29,13 +28,12 @@ function Impacto() {
 
   useEffect(() => {
     interval2.current = setInterval(() => {
-      console.log("teste2");
       if (numero2 < 400) {
         setNumero2((numeroAntigo) => numeroAntigo + 1);
       } else {
         clearInterval(interval2.current);
       }
-    });
+    }, 10);
 
     return () => {
       clearInterval(interval2.current);
@@ -43,7 +41,7 @@ function Impacto() {
   }, [numero2]);
 
   return (
-    <div className="flex items-center max-sm:flex-col">
+    <div className="relative flex items-center max-sm:flex-col">
       <div>
         <div className="flex items-center gap-4 relative max-sm:pl-16 sm:pl-64 pt-28">
           <h3 className="font-bold max-sm:text-6xl text-7xl pr-60 text-[#CC2284]">
@@ -65,12 +63,12 @@ function Impacto() {
           <h3 className="font-bold max-sm:text-6xl text-7xl text-[#CC2284]">
             milhões
           </h3>
-          <p className="text-[#909BD5] sm:text-3xl absolute max-sm:pl-56 pl-72">
+          <p className="text-[#909BD5] sm:text-3xl absolute max-sm:pl-56 pl-72 max-sm:w-[90%]">
             <span className="font-bold">DE PESSOAS</span> IMPACTADAS DIARIAMENTE
           </p>
         </div>
       </div>
-      <div>
+      <div className="sm:absolute sm:pl-[900px]">
         <Image src={"logo-exo2.svg"} alt="Rectangle" width={700} height={400} />
       </div>
     </div>
