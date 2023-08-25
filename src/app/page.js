@@ -4,6 +4,7 @@ import Servicos from "@/components/Servicos/Servicos";
 import Sobre from "@/components/Sobre/Sobre";
 import Play from "@/components/Play/Play";
 import Clientes from "@/components/Clientes/Clientes";
+import Resultado from "@/components/Resultado/Resultado";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Impacto />
       <Play />
       <Clientes />
+      <Resultado />
     </div>
   );
 }
