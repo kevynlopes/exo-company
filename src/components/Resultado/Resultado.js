@@ -7,7 +7,7 @@ function Resultado() {
       <Image
         className="bg-black rounded-tl-[200px]"
         src={"equipeExo.svg"}
-        alt="Rectangle"
+        alt="image"
         width={1920}
         height={0}
       />
