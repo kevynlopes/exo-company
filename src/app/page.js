@@ -17,6 +17,7 @@ export default function Home() {
       <Clientes />
       <Resultado />
       <Resultado />
+      <Resultado />
     </div>
   );
 }
